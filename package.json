@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage --watch"
+  },
   "dependencies": {
     "@babel/core": "^7.17.7",
     "@babel/preset-env": "^7.16.11",

@@ -8,8 +8,8 @@ test("测试map方法", function () {
   // let fn = jest.fn();
   // map([1, 2, 3], fn);
   // console.log(fn.mock);
-  expect(fn.mock.calls[0][0]).toBe(1);
   expect(fn).toBeCalled();
+  expect(fn.mock.calls[0][0]).toBe(1);
 });
 
 it("测试map方法调用次数", function () {
